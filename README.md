@@ -42,5 +42,5 @@ venv\Scripts\activate       # Windows
 pip install -r requirements.txt
 python models/train.py --config configs/config.yaml
 python inference/run_realtime.py
-python ui/app.py
+python ui/main.py
 
